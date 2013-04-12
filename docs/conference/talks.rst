@@ -111,7 +111,7 @@ Erin Robbins O'Brien - Beautiful Documents - A Language Love Story
 
    **20 minutes**
 
-    Technical writing, content marketing, and all other forms of documentation are a love story between writer and document. Carefully walking the balance between attractive, desirable content and the stability and comfort of getting the information needed. This talk will poetically address how to re-kindle your document love if it has been lost, and some strategies to keep the fires burning so you each document you write is as exciting as the first.  
+    Technical writing, content marketing, and all other forms of documentation are a love story between writer and document. Carefully walking the balance between attractive, desirable content and the stability and comfort of getting the information needed. This talk will poetically address how to re-kindle your document love if it has been lost, and some strategies to keep the fires burning so that each document you write is as exciting as the first.  
 
 .. _heidi-waterhouse:
 
@@ -341,7 +341,7 @@ Sarah Grant - Evolution of the English Language from Text to Texting
 
     Or, Why the Oxford English Dictionary is My Favorite Book, and Why I Love the Chicago Manual of Style
 
-    The Oxford English Dictionary holds the key to every word in the English language, starting with the language from which it was borrowed/stolen, following its history to current times, and giving examples of usage from the beginning. New words are introduced into common usage every year, and some make it into an official dictionary. Some words are practical (i.e., Internet), while others are superfluous (i.e., ironical) and many are just plain wrong {i.e., orientated). 
+    The Oxford English Dictionary holds the key to every word in the English language, starting with the language from which it was borrowed/stolen, following its history to current times, and giving examples of usage from the beginning. New words are introduced into common usage every year, and some make it into an official dictionary. Some words are practical (i.e., Internet), while others are superfluous (i.e., ironical) and many are just plain wrong (i.e., orientated). 
 
     The "correct" use of words and language seems to be more and more fluid these days. Will commonly used acronyms, seen mainly in texting and instant messaging, become part of the standard usage? How fluid SHOULD the English language be? What types of grammatical and punctuation changes are acceptable, and what types  are not? Where do we draw the line?
 
