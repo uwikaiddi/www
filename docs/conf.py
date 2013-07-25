@@ -270,7 +270,7 @@ texinfo_documents = [
 
 
 
-websupport2_base_url = 'https://readthedocs.org/websupport'
+#websupport2_base_url = 'https://readthedocs.org/websupport'
 
 #siteurl = 'file://' + os.path.abspath('../var/docs/html') #won't work in windows
 feed_base_url = "http://docs.writethedocs.org/en/2013"
