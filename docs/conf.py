@@ -269,9 +269,14 @@ texinfo_documents = [
 #texinfo_show_urls = 'footnote'
 
 
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+if on_rtd:
+    websupport2_base_url = 'http://readthedocs.org/websupport'
+    websupport2_static_url = 'http://write-the-docs.readthedocs.org/en/websupport-prod'
+else:
+    websupport2_base_url = 'http://localhost:8000'
+    websupport2_static_url = 'http://localhost:8000/docs/wtd/en/websupport-prod'
 
-websupport2_base_url = 'http://readthedocs.org/websupport'
-websupport2_static_url = 'http://write-the-docs.readthedocs.org/en/websupport-prod'
 
 #siteurl = 'file://' + os.path.abspath('../var/docs/html') #won't work in windows
 feed_base_url = "http://docs.writethedocs.org/en/2013"
