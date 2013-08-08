@@ -270,6 +270,7 @@ texinfo_documents = [
 
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+import pdb; pdb.set_trace()
 if on_rtd:
     websupport2_base_url = 'http://readthedocs.org/websupport'
     websupport2_static_url = 'http://write-the-docs.readthedocs.org/en/websupport-prod'
