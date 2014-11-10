@@ -110,22 +110,24 @@ pygments_style = 'sphinx'
 #html_theme = 'default'
 
 import alabaster
-
 html_theme_path = [alabaster.get_path()]
 extensions = ['alabaster']
 html_theme = 'alabaster'
-html_sidebars = {
-   '**': [
-       'about.html', 'navigation.html', 'searchbox.html', 
-   ]
-}
+
+import sphinx_bootstrap_theme
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+#html_logo = "img/logo.png"
 
 html_style = "writethedocs.css"
 
 html_theme_options = {
-   'logo': 'logo.png',
-   'github_user': 'writethedocs',
-   'github_repo': 'docs',
+    'navbar_links': [
+        ("Conference", "http://conf.writethedocs.org/", True),
+        ("Meetups", "http://conf.writethedocs.org/meetups.html", True),
+        #("Documentation", "http://docs.writethedocs.org/", True),
+    ],
+    'bootstrap_version': "2",
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -145,7 +147,6 @@ html_theme_options = {
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = "img/logo.png"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -166,6 +167,7 @@ html_static_path = ['_static', 'img']
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
+"""
 html_sidebars = {
     '**': [
            'about.html',
@@ -176,6 +178,7 @@ html_sidebars = {
            #'searchbox.html',
            ],
 }
+"""
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

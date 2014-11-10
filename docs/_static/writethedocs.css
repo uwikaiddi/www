@@ -1,5 +1,8 @@
-@import "alabaster.css";
+@import "basic.css";
 
+body {
+    margin-top: 80px;
+}
 
 @font-face {
     font-family: 'Hagin Caps Medium';
@@ -44,11 +47,11 @@
     font-style: normal;
 }
 
-div.body body, div.body input, div.body textarea {
+body, input, textarea {
   font-family: "Poly", Helvetica, Arial, sans-serif;
 }
 
-div.body h1, div.body h2, div.body h3, div.body h4, div.body h5 {
+body h1, body h2, body h3, body h4, body h5 {
   font-family: "Hagin Caps Medium";
 }
 
