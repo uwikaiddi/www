@@ -13,4 +13,5 @@ python-termstyle==0.1.10
 #rednose==0.3.3
 wsgiref==0.1.2
 sphinxcontrib-testbuild==0.1.2
-git+https://github.com/ericholscher/sphinx-websupport2#egg=websupport2
+git+https://github.com/rtfd/readthedocs-sphinx-ext#egg=readthedocs_ext
+
