@@ -8,4 +8,6 @@ python-termstyle==0.1.10
 wsgiref==0.1.2
 sphinxcontrib-testbuild==0.1.2
 git+https://github.com/rtfd/readthedocs-sphinx-ext#egg=readthedocs_ext
-
+rednose
+docutils
+alabaster
